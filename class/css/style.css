@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+  font-family:'Roboto Slab', serif;
+}
+/* this is class */
+.container
+{
+  margin: auto;
+  background-color: rgb(74, 32, 232);
+  width: 50%;
+  padding: 10px;
+  box-shadow: 5px 10px 10px 10px rgb(134, 138, 128)
+  border-radius: 5px; 
+
+
+}
+.container h1 {
+  font-size: 4em;
+}
+
+/* This is an id */
+
+#dog
+{
+width: 80%;
+margin: auto;
+}
