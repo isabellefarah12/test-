@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(218, 196, 148);
+}
+
+h1
+{
+    color: rgb(0, 0, 0);
+    font-family: 'PT Serif', serif;
+}
+
+/* this is class on the div in my HTML */
+.container
+{
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(238, 174, 224);
+  width: 80%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+/* This will affect all the h1 inside my class container */
+.container h1 {
+  font-size: 4em;
+}
+/* we use this to create a style for my navigation tag */
+.navigation {
+  display: inherit;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom:20px;
+}
+.horizontalLine {
+  padding-top: 20px;
+}
+.horizontalLine Li a{
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+  .horizontal li a:hover {
+    color: red;
+  }
+}
+.horizontalLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}

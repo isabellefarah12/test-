@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(44, 17, 226);
+}
+
 h1 {
   color: red;
   font-family:'Roboto Slab', serif;
@@ -6,10 +10,10 @@ h1 {
 .container
 {
   margin: auto;
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(231, 137, 159);
   width: 50%;
   padding: 10px;
-  box-shadow: 5px 10px 10px 10px rgb(134, 138, 128);
+  box-shadow: 5px 10px 10px 10px rgb(17, 192, 215);
   border-radius: 5px;
 
 
@@ -18,6 +22,39 @@ h1 {
   font-size: 4em;
 }
 
+.sidebar {
+  float: left;
+  margin: auto;
+  background-color: rgb(137, 110, 231);
+  width: 10%;
+  padding: 10px;
+  box-shadow: 5px 10px 10px 10px rgb(134, 138, 128);
+  border-radius: 5px;
+}
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top; 30px;
+  margin-bottom; 80px;
+}
+.horizontalLine {
+  padding-top: 20px;
+}
+.horizontalLine Li a{
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+  .horizontal li a:hover {
+    color: red;
+  }
+}
+.horizontalLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}
 /* This is an id */
 
 #pool
