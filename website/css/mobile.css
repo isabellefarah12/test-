@@ -1,0 +1,43 @@
+@import "desktop.css";
+header{
+  width: 380px;
+  height: auto;
+}
+
+main{
+  width: 380px;
+}
+
+footer{
+  width: 380px;
+}
+
+nav{
+  width: 380px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+}
+
+img{
+  width: 380px;
+  display: block;
+}
+
+#intro, #orgins, #first{
+  width: 380px;
+  display: block;
+}
+
+#intro, #orgins, #first img{
+  width: 380px;
+}
+
+#intro, #orgins, #first p{
+  width: 380px;
+  display: block;
+}
