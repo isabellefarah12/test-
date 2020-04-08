@@ -3,7 +3,10 @@
 $(document).ready(function(){  //Beginning of your document
 
   // This will hide your html elements when your page loads
-
+  $("main .b").hide();
+  $("main .c").hide();
+  $("main .d").hide();
+  $("main .e").hide();
 
 
 ///           MENU          ////
@@ -54,7 +57,7 @@ $("footer").mouseleave(function() {
 });
 
 $("#_css").click(function(){
-  $(".cell").css("background-color", "black");
+  $(".grid").css("background-color", "rgb(3, 17, 111)");
 });
 
 

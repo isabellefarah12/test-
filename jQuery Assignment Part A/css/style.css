@@ -80,12 +80,28 @@ p
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 5px;
+  background-color: white;
 }
 .cell {
    /* center the cell content */
   justify-content: center;
   align-items: center;
   display: flex;
-  border: 2px solid white;
-  background-color: white;
+  border: 2px;
+}
+
+.pics{
+  margin: auto;
+  text-align: center;
+}
+
+.details{
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+
 }
