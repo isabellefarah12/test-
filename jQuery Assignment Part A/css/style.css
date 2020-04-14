@@ -12,6 +12,22 @@ body{
 
 }
 
+.gridImages
+{
+  width: 30%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 1.5px 2px 4px #3d3d3d;
+}
+
+
 .sidebar {
   float: left;
   margin: auto;
@@ -20,6 +36,12 @@ body{
   height: 80%
   padding: 10px;
 }
+
+.pics{
+  margin: auto;
+  text-align: center;
+}
+
 
 header{
   background-color: rgb(61, 167, 35);
@@ -69,31 +91,7 @@ p
 }
 
 
-.container1{
-  width: 980px;
-  height: auto;
-  margin: 0 auto;
-  display: inline-block;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 5px;
-  background-color: white;
-}
-.cell {
-   /* center the cell content */
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  border: 2px;
-}
 
-.pics{
-  margin: auto;
-  text-align: center;
-}
 
 .details{
   width: 980px;
