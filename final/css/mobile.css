@@ -1,0 +1,551 @@
+
+
+/* ----------  homepage -------------- */
+
+header{
+  height:100px;
+  width: 380px;
+}
+
+body{
+
+}
+
+.logo img
+{
+	float:left;
+  width: 110px;
+  height: 100px;
+}
+
+.navigation
+{
+  display: grid;
+  grid-template-rows: .5fr;
+  grid-template-columns: .1fr .1fr;
+  grid-column-gap: 5px;
+	float:right;
+  padding-right:10px;
+  margin-top: 15px;
+  display: table;
+}
+
+.horizontalLine Li a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.horizontalLine Li a:hover {
+    color: pink;
+}
+
+.horizontalLine li {
+  display: inline;
+  margin: 15px;
+  padding: 2px 5px 2px 5px;
+  background-color: black;
+}
+
+.sidebar{
+  float: left;
+  margin: auto;
+  width: 100%;
+}
+
+.sidebar
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+.sidebar a
+{
+  text-align: center;
+}
+.sidebar a i
+{
+transition: color .3s;
+font-size: 1.33em;
+}
+.sidebar a i:hover
+{
+  color: #f5afcc;
+}
+
+.fa-linkedin{
+  color: rgb(207, 207, 207);
+}
+
+.fa-handshake{
+  color: rgb(207, 207, 207);
+}
+
+.fa-envelope-square{
+  color: rgb(207, 207, 207);
+}
+
+.fa-phone-square{
+  color: rgb(207, 207, 207);
+}
+
+.container{
+  display: grid;
+  grid-template-rows: .5fr .5fr .5fr .5fr;
+  grid-template-columns: .5fr;
+  grid-column-gap: 75px;
+  display: table;
+  margin: auto;
+  width: 150px;
+  height: 610px;
+  padding-top:18px;
+  padding-left: 20px;
+  padding-right: 17px;
+
+}
+
+.container img{
+  width: 150px;
+  height: 150px;
+}
+
+.main{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .2fr 3fr;
+  /* grid-column-gap: 10px; */
+  margin: auto;
+}
+
+.gridMain
+{
+  width: 380px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .1fr 4fr;
+}
+
+.gridMainT
+{
+  width: 380px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+
+.gridFooter{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .2fr 2fr;
+  grid-column-gap: 10px;
+}
+
+
+.horizontalLine{
+  float: right;
+}
+
+h1{
+  white-space:nowrap;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+}
+
+h3{
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+
+  color: pink;
+}
+
+footer{
+  height: 5px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  width: 380px;
+}
+
+
+.headers {
+  width: 100%;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  margin-top: 35px;
+}
+
+.footer {
+  display: grid;
+  grid-template-rows: .2fr;
+  grid-template-columns: .5fr .5fr .5fr .5fr;
+  grid-column-gap: 10px;
+  /* width: 50%; */
+  padding-left: 17px;
+  margin: auto;
+}
+
+.footer a {
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.footer a:hover {
+    color: pink;
+}
+
+/* ----------  Toppel Career Center -------------- */
+
+.info {
+  display: grid;
+  grid-template-rows: .4fr .4fr;
+  grid-template-columns: .8fr;
+  width: 380px;
+  font-size: 14px;
+}
+
+.info1{
+  display: grid;
+  grid-template-rows: .1fr .05fr;
+  grid-template-columns: .2fr;
+  margin: auto;
+}
+
+.info2{
+  display: grid;
+  grid-template-rows: .2fr .3fr;
+  grid-template-columns: 1fr;
+  margin: auto;
+}
+
+.info p {
+  height: 180px;
+  width: 200px;
+  margin: auto;
+  font-size: 12px;
+}
+
+.info h2 {
+  font-size: 18px;
+}
+
+.headers1 {
+  width: 380px;
+  padding-top: 153px;
+}
+
+.headers1 h1{
+  white-space:nowrap;
+  font-size: 24px;
+  margin: auto;
+}
+
+.headers2 {
+  width: 380px;
+  padding-top: 100px;
+  padding-bottom: 15fpx;
+}
+
+.headers2 h2{
+  white-space:nowrap;
+  font-size: 24px;
+  margin: auto;
+}
+
+.headers3 {
+  white-space:nowrap;
+  font-size: 24px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.Headers{
+  margin-top: 50px;
+  width: 380px;
+  margin-bottom: 65px;
+}
+
+.Headers h1{
+  white-space:nowrap;
+  font-size: 24px;
+  margin: auto;
+}
+
+.embedFiles
+{
+  width: 380px;
+  height: 630px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.embedFiles embed
+{
+  width: 80%;
+  height: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+}
+
+.other{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    width: 300px;
+  }
+
+.other h2{
+  text-align: center;
+  font-size: 14px;
+}
+
+.other a {
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.other a:hover {
+  color: pink;
+}
+
+.gridSocial{
+  width: 380px;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+}
+
+.gridSocial img
+{
+  display: block;
+  margin: auto;
+
+}
+.gridSocial a
+{
+  text-decoration: none;
+}
+
+.gridSocial h2{
+  color: rgb(125, 125, 125);
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.platforms a{
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.platforms a:hover {
+    color: pink;
+}
+
+
+h2{
+  text-align: center;
+  margin: auto;
+}
+
+.white{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.posts{
+  margin: auto;
+  padding-top: 50px;
+}
+
+.posts img {
+  height: 80px;
+  width: 80px;
+}
+
+
+.tagline{
+  padding-bottom: 10px;
+}
+
+section{
+  height: 50px;
+  margin-top:200px;
+  margin-bottom: 15px;
+  width: 380px;
+}
+
+/* ----------  Interstellar -------------- */
+
+
+.gridMainI {
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+
+}
+.embedFilesI
+{
+width: 100%;
+height: auto;
+}
+
+.embedFilesI embed
+{
+  width: 100%;
+  height: auto;
+}
+.embedFilesI a
+{
+  display: block;
+  color: rgb(125, 125, 125);
+  font-size: 14px;
+  width: 200px;
+  margin: auto;
+}
+
+.embedFilesI a:hover:{
+  color:pink;
+}
+
+.headersI {
+  white-space:nowrap;
+  font-size: 24px;
+  margin: auto;
+  /* width: 380px; */
+  padding-top: 185px;
+}
+
+.section1 {
+  margin-top:35px;
+  margin-bottom: 15px;
+}
+
+/* ----------  Nonprofit -------------- */
+
+
+.embedFilesT
+{
+width: 100%;
+height: auto;
+}
+
+.embedFilesT embed
+{
+  width: 100%;
+  height: auto;
+}
+.embedFilesT a
+{
+  display: block;
+  white-space:nowrap;
+  color: rgb(125, 125, 125);
+  font-size: 14px;
+  width: 220px;
+  margin: auto;
+}
+
+.embedFilesT a:hover:{
+  color:pink;
+}
+
+/* ----------  Magazines -------------- */
+
+.embedFilesM
+{
+width: 100%;
+height: auto;
+}
+
+.embedFilesM embed
+{
+  width: 100%;
+  height: auto;
+}
+.embedFilesM a
+{
+  display: block;
+  white-space:nowrap;
+  color: rgb(125, 125, 125);
+  font-size: 14px;
+  width: 220px;
+  margin: auto;
+}
+
+.embedFiles a:hover:{
+  color:pink;
+}
+
+/* ----------  About -------------- */
+
+.photo{
+margin: auto;
+/* padding-top: 40px;
+padding-bottom: 50px; */
+}
+
+.photo img{
+  width: 170px;
+  height: 185px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.paragraph {
+  width: 270px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.paragraph a{
+  color: rgb(125, 125, 125);
+  font-size: 14px;
+}
+
+.paragraph a:hover{
+  color:pink;
+}
+
+.paragraph h2 {
+text-align: left;
+font-weight: normal;
+font-size: 16px;
+}
+
+.paragraph p {
+  font-size: 12px;
+}
+
+.gridMainA
+{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  /* grid-column-gap: 20px; */
+}
+
+.aboutF {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .1fr .7fr;
+}

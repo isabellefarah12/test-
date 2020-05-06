@@ -1,0 +1,484 @@
+
+/* ----------  homepage -------------- */
+
+header{
+  height:150px;
+  width: auto;
+}
+
+body{
+  width: 100%;
+}
+
+.logo
+{
+	float:left;
+}
+
+.navigation
+{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 75px;
+	float:right;
+  padding-right:100px;
+  margin-top: 20px;
+  display: table;
+}
+
+.horizontalLine Li a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontalLine Li a:hover {
+    color: pink;
+}
+
+.horizontalLine li {
+  display: inline;
+  margin: 40px;
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+}
+
+.sidebar{
+  float: left;
+  margin: auto;
+  width: 100%;
+}
+
+.sidebar
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+.sidebar a
+{
+  text-align: center;
+}
+.sidebar a i
+{
+transition: color .3s;
+}
+.sidebar a i:hover
+{
+  color: #f5afcc;
+}
+
+.fa-linkedin{
+  color: rgb(207, 207, 207);
+}
+
+.fa-handshake{
+  color: rgb(207, 207, 207);
+}
+
+.fa-envelope-square{
+  color: rgb(207, 207, 207);
+}
+
+.fa-phone-square{
+  color: rgb(207, 207, 207);
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 75px;
+  display: table;
+  margin: auto;
+  width: 57%;
+}
+
+.main{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .2fr 3fr;
+  grid-column-gap: 10px;
+  margin: auto;
+}
+
+.gridMain
+{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .2fr 1.8fr .5fr;
+}
+
+.gridMainT
+{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr .1fr;
+}
+
+.gridFooter{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .2fr 2fr;
+  grid-column-gap: 10px;
+}
+
+
+.horizontalLine{
+  float: right;
+}
+
+h1{
+  margin: auto;
+  text-align: center;
+  margin-right: 300px;
+}
+
+h3{
+  margin: auto;
+  text-align: center;
+
+  color: pink;
+}
+
+footer{
+  height: 50px;
+  margin-top:30px;
+  margin-bottom: 15px;
+}
+
+
+.headers {
+  width: 100%;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  margin-top: 35px;
+}
+
+.footer {
+  display: grid;
+  grid-template-rows: .2fr;
+  grid-template-columns: .5fr .5fr .5fr .5fr;
+  grid-column-gap: 50px;
+  width: 50%;
+  /* margin-left: 400px; */
+  margin: auto;
+}
+
+.footer a {
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.footer a:hover {
+    color: pink;
+}
+
+/* ----------  Toppel Career Center -------------- */
+
+.info {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .4fr .4fr;
+  grid-column-gap: 80px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.info1{
+  display: grid;
+  grid-template-rows: .2fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.info2{
+  display: grid;
+  grid-template-rows: .2fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.info p {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.headers1 {
+  width: 100%;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  margin-top: 43px;
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+
+.headers2 {
+  width: 100%;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  padding-top: 200px;
+}
+
+.headers3 {
+  width: 100%;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  padding-top: 200px;
+}
+
+.Headers{
+  font-size: 24px;
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.embedFiles
+{
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+}
+
+.embedFiles embed
+{
+  width: 100%;
+  height: 100%;
+  margin-left: 150px;
+}
+
+
+.gridSocial{
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 100px;
+}
+
+.gridSocial img
+{
+  display: block;
+  margin: auto;
+
+}
+.gridSocial a
+{
+  text-decoration: none;
+}
+
+.gridSocial h2{
+  color: rgb(125, 125, 125);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.gridSocial h2:hover {
+  color:pink;
+}
+
+.platforms a{
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.platforms a:hover {
+    color: pink;
+}
+
+
+h2{
+  text-align: center;
+  margin: auto;
+}
+
+.other h2{
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+}
+
+
+.other a {
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+  font-family: sans-serif;
+  width: 200px;
+  font-size: 16px;
+}
+
+.other a:hover {
+  color: pink;
+}
+
+.white{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.posts{
+  margin: auto;
+  width: 85%;
+  padding-top: 50px;
+}
+
+.other{
+    float: right;
+    margin: auto;
+    margin-right: 400px;
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: .8fr;
+    margin-right: 20px;
+  }
+
+.tagline{
+  padding-bottom: 10px;
+  margin-right: 70px;
+}
+
+section{
+  height: 60px;
+  margin-top:95px;
+  margin-bottom: 15px;
+}
+
+/* ----------  Interstellar -------------- */
+
+
+.gridMainI {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .2fr 2fr;
+  padding-right: 100px;
+}
+
+.embedFilesI {
+  width: 70%;
+  height: 75vh;
+  margin: 0 auto;
+  margin-right: 250px;
+  margin-top: 30px;
+}
+
+.embedFilesI embed {
+  width: 100%;
+  height: 100%;
+}
+.embedFilesI a
+{
+  display: none;
+}
+.headersI {
+  width: 100%;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  margin-top: 105px;
+}
+
+.section1 {
+  height: 60px;
+  margin-top:45px;
+  padding-bottom: 15px;
+}
+
+/* ----------  Nonprofit -------------- */
+
+.embedFilesT {
+  width: 70%;
+  height: 75vh;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-right: 280px;
+}
+
+.embedFilesT embed {
+  width: 100%;
+  height: 100%;
+}
+
+.embedFilesT a
+{
+  display: none;
+}
+
+/* ----------  Magazines -------------- */
+
+.embedFilesM {
+  width: 70%;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-right: 280px;
+}
+
+.embedFilesM embed {
+  width: 100%;
+  height: 100%;
+}
+
+.embedFilesM a
+{
+  display: none;
+}
+
+/* ----------  About -------------- */
+
+.photo{
+margin: auto;
+width: 50%;
+padding-top: 40px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+
+.paragraph {
+  width: 80%;
+  padding-top: 40px;
+}
+
+.paragraph a{
+  color: rgb(125, 125, 125);
+  font-size: 14px;
+}
+
+.paragraph a:hover{
+  color:pink;
+}
+
+.paragraph h2 {
+text-align: left;
+font-weight: normal;
+font-size: 35px;
+}
+
+.gridMainA
+{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .8fr 1fr;
+}
+
+.aboutF {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .1fr .7fr;
+}
